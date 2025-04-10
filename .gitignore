@@ -1,0 +1,135 @@
+# Python
+
+faiss_index.pkl
+merged_df.pkl
+contacts.csv
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+../../AI project/.env/
+../../AI project/.env/
+../../AI project/.env
+.venv
+env.bak/
+venv.bak/
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+staticfiles/
+
+# MongoDB
+mongod.lock
+*.bson
+*.dump
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IDE - PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# IDE - Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment Variables
+../../AI project/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Performance Testing
+.benchmarks/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Project specific
+node_modules/
+/frontend/build/
+.env.local
+.env.development
+.env.test
+.env.production
+/start.sh
+/runserver.sh
+/runserver.bat
+/r.sh
+/set_env.sh
+/my_llm/results/checkpoint-2/config.json
+/my_llm/results/checkpoint-2/generation_config.json
+/my_llm/results/checkpoint-2/model.safetensors
+/my_llm/results/checkpoint-2/optimizer.pt
+/my_llm/results/checkpoint-2/rng_state.pth
+/my_llm/results/checkpoint-2/scheduler.pt
+/my_llm/results/checkpoint-2/trainer_state.json
+/my_llm/results/checkpoint-2/training_args.bin
