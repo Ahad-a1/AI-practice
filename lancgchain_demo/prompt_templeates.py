@@ -17,7 +17,7 @@ if __name__ == "__main__":
         [("system", system_template), ("user", "{text}")]
     )
 
-    prompt = prompt_template.invoke({"language": "Urdu", "text": "My name is Shakir!"})
+    prompt = prompt_template.invoke({"language": "Urdu", "text": "My name is Abdul Ahad!"})
     print(prompt)
     print(prompt.to_messages())
     response = model.invoke(prompt)
