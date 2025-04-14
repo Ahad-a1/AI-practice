@@ -15,12 +15,12 @@ if __name__ == "__main__":
     # Get Mistral AI API key from env or prompt
     api_key = os.getenv("MISTRAL_API_KEY")
     if not api_key:
-        api_key = getpass.getpass("🔐 Enter API key for Mistral AI: ")
+        api_key = getpass.getpass(" Enter API key for Mistral AI: ")
 
     # Load PDF path from env
     pdf_path = os.getenv("PDF_PATH")
     if not pdf_path:
-        print("⚠️ PDF_PATH not found in environment.")
+        print("⚠ PDF_PATH not found in environment.")
         exit(1)
 
     # Initialize Mistral AI embedding model (semantic embedding)
@@ -30,7 +30,7 @@ if __name__ == "__main__":
     loader = PyPDFLoader(pdf_path)
     documents = loader.load()
     if not documents:
-        print("⚠️ No content loaded from PDF.")
+        print("⚠ No content loaded from PDF.")
         exit(1)
 
     # Chunk the documents semantically
@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
     # Display the best semantic match
     if results:
-        print("\n🔍 Top semantic match:")
+        print("\n Top semantic match:")
         print(results[0].page_content)
     else:
         print("No results found for your query.")
